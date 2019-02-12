@@ -14,7 +14,7 @@ console.log("==================")
 // console.log("Section 1")
 // console.log("==================")
 
-// // This is how you delcare a variable:
+// // This is how you declare a variable:
 // var myVariable
 
 // // Use a single equals sign to set the value of the variable:
@@ -24,12 +24,34 @@ console.log("==================")
 // console.log("This is the value of 'myVariable': ")
 // console.log(myVariable)
 
-// // You can also declare a variable and set it's value in one line:
+// // Variables can store different kinds of data.
+// // This variable stores a number:
+// var firstNum = 1
+// // This variable stores a boolean.  Booleans are special values that are true or false:
+// var firstBool = true
+// // This variable stores a string.  Strings are letters and words.  We identify strings with quotes:
+// var firstStr = "hello"
+// // You can use single quotes or double quotes to store a string:
+// var secondStr = 'hello again'
+
+// // Variables can also store special kinds of data called "arrays" and "objects",
+// //     but we will look at those later.
+
+
+// // You can save space by declaring a variable and set it's value in one line:
 // var newVariable = 2
 
 // console.log("This is the value of 'newVariable': ")
 // console.log(newVariable)
-//#endregion
+
+// // You can reuse a variable to store a new value.  If you do, be sure not to
+// // declare "var" again...
+// newVariable = 5
+
+// console.log("This is the new value of 'newVariable': ")
+// console.log(newVariable)
+
+// #endregion
 
 //#region 2
 // console.log("") // blank line
